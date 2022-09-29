@@ -11,7 +11,7 @@
 
 	<!-- This is our beans, call setter injection -->
 	<bean name="emp1" class="com.springcore.collections.Emp">
-		<property name="name" value="Arisha" />
+		<property name="name" value="Faraz" />
 		<property name="phones">
 			<list>
 				<value>896101111</value>
