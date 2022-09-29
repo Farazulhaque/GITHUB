@@ -1,6 +1,5 @@
 package com.springcore.lifecycle;
 
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -13,5 +12,9 @@ public class Test {
 
 		// registering shutdown hook
 		context.registerShutdownHook();
+
+		System.out.println("++++++++++++++++++++++++++++++++++");
+		Mobile m1 = (Mobile) context.getBean("m1");
+		System.out.println(m1);
 	}
 }

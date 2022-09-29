@@ -23,10 +23,10 @@ public class Laptop {
 	}
 
 	public void init() {
-		System.out.println("Inside init method");
+		System.out.println("Inside init method of Laptop");
 	}
 
 	public void destroy() {
-		System.out.println("Inside destroy method");
+		System.out.println("Inside destroy method of Laptop");
 	}
 }
